@@ -11,7 +11,7 @@ Create an online application/platform that allows consumers/clients to be in con
 MVP
 
 Landing page 
-Products
+Products section
 Order section
 Contact/feedback form
 
