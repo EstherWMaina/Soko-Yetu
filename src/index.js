@@ -139,3 +139,14 @@ purchaseButton.addEventListener('click', ()=>{
         location.reload
     },500)
 })
+
+//Register button
+const RegisterButton = document.querySelector('#Register')
+
+RegisterButton.addEventListener('click', ()=>{
+    alert('You have successful registered with Soko Yetu!')
+    setTimeout(()=>{
+        location.href='./index.html'
+        location.reload
+    },500)
+})

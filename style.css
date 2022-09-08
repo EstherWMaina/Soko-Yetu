@@ -91,40 +91,8 @@ ul {
     font-size: 12px;
     padding: 8px 12px;
   }
-  /* Hide the images by default
-  .mySlides {
-    display: none;
-  }
-   */
   
-  /* Next & previous buttons */
-  .prev, 
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
+
   /* Caption text */
   .text {
     color: #7e16c4;
@@ -143,23 +111,6 @@ ul {
     color: white;
   }
 
-
-  /* The dots/bullets/indicators */
-  /* .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  } */
-  
   /* Apply a background colour to the Products section */
   #Products{
     background-color: rgba(224, 92, 20, 0.521);
@@ -171,14 +122,17 @@ ul {
     text-align: end;
   }
 
-  /* Apply a background to the Join us section */
+  /* Apply a background image to the Join us section */
   #join-us {
     background-image: url(./assets/grocery-list.jpg);
     background-size: cover;
     border: 2px solid black;
     overflow: hidden;
+    text-align: center;
   }
-
+  .join-us .h1{
+    color: white;
+  }
   /* Apply a background to the Order section */
   #order {
     background-color: rgba(224, 92, 20, 0.521);
@@ -188,18 +142,7 @@ ul {
   .order .h1{
     color: #f2f2f2;
   }
-  /* Fading animation */
-  /* .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  } */
-
-
+ 
 .cart-page{
   margin: 80px auto;
 }
@@ -296,7 +239,7 @@ th:last-child{
     transition: .4s;
     color: #f9004d;
     transition: .4s;
-    background-color: blue;
+    background-color: rgb(36, 36, 175);
   }
 /* Footer 
 

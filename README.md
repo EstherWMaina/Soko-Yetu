@@ -10,13 +10,11 @@ Create an online application/platform that allows consumers/clients to be in con
 
 MVP
 
-Landing page 
-Products section
-Order section
+Landing page – containing farmers profiles
+Order Page
 Contact/feedback form
 
 API
-
 https://edamam-food-and-grocery-database.p.rapidapi.com/parser?ingr=${searchVal}
 
 Github link

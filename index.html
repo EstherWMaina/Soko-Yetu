@@ -6,7 +6,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  
   <title>Soko Yetu</title>
 </head>
 
@@ -16,8 +15,7 @@
     <div class="header container">
       <div class="nav-bar">
         <div class="brand">
-          <a href="#home">
-            
+          <a href="#home">    
           </a>
         </div>
         <div class="nav-list">
@@ -33,8 +31,7 @@
           </ul>
         </div>
       </div>
-</div>
-    
+</div>   
   </section>
   <!-- End Header -->
 
@@ -51,18 +48,15 @@
   <!-- End home Section  -->
 
   <!-- Farmers Section -->
-  
- 
   <section id="Products">
     <div class="Products container">
-      <div class="Products-top">
-        
+      <div class="Products-top"> 
         <h1 class="section-title">Search Products</h1>
         <p>Our farmers are from different parts of the country with fresh produce</p>
         <input type="text" id="searchID">
       </div>
     </div>
-  <!-- Slideshow container -->
+  <!-- Slideshow container-->
 
  <div id="products" class="slideshow-container">
   products.forEach(element => {
@@ -73,66 +67,46 @@
     <button class="shop-item-button" type="button">ADD TO CART</button>
     <small>Price: $10.00</small>
     </div>`
-});
-
-  <!-- Full-width images with caption text -->
-    
-  <!-- Next and previous buttons 
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>-->
-<br>
-
-<!-- The dots/circles 
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div> -->
+});  
 </section>
- 
   <!-- End Farmers Section -->
 
   <!-- Jion Us Section -->
   <section id="join-us">
     <div class="Join us container">
-      <div class="join-us">
+      <div class="join-us" >
         <div class="join-item">
           <div class="join-info">
-            <h1>Join the farmers</h1>
-            <p>Be part of the farmers selling their produce directly to the consumer in Soko Yetu. Fill this form.</p>
+            <h1>Join Us </h1> 
           <!-- contact form -->
  
-   <form class="w3-container" action="/action_page.php" target="_blank">
-    <div class="w3-section">
-      <label>Name</label>
-      <input class="w3-input w3-border w3-hover-border-black" style="width:50%;" type="text" name="Name" required>
-    </div>
-    <div class="w3-section">
-      <label>Email</label>
-      <input class="w3-input w3-border w3-hover-border-black" style="width:50%;" type="text" name="Email" required>
-    </div>
-    <div class="w3-section">
-      <label>Subject</label>
-      <input class="w3-input w3-border w3-hover-border-black" style="width:50%;" name="Subject" required>
-    </div>
-    <div class="w3-section">
-      <label>Join as</label>
-      <form action="">
-        <select>
-            <option value="farmer">Farmer</option>
-            <option value="customer">Customer</option>
-        </select>
-    </form>
-    </div>
-    <button type="submit" class="w3-button w3-block w3-black">Register</button>
-  </form>
-
-</div>
+                <form class="w3-container" action="/action_page.php" target="_blank">
+                  <div class="w3-section">
+                    <label>Name</label>
+                    <input class="w3-input w3-border w3-hover-border-black" style="width:50%;" type="text" name="Name" required>
+                  </div>
+                  <div class="w3-section">
+                    <label>Email</label>
+                    <input class="w3-input w3-border w3-hover-border-black" style="width:50%;" type="text" name="Email" required>
+                  </div>
+                  <div class="w3-section">
+                    <label>Subject</label>
+                    <input class="w3-input w3-border w3-hover-border-black" style="width:50%;" name="Subject" required>
+                  </div>
+                  <div class="w3-section">
+                    <label>Join as</label>
+                    <form action="">
+                      <select>
+                          <option value="farmer">Farmer</option>
+                          <option value="customer">Customer</option>
+                      </select>
+                  </form>
+                  </div>
+                  <button class="btn btn-dark btn-purchase" type="button" id="Register">Register</button>
+                </form>
+              </div>
           </div>
-        
         </div>
-      
       </div>
     </div>
   </section>
@@ -154,8 +128,7 @@
               <th>Quantity</th>
               <th>Subtotal</th>
             </th>
-            <tbody id="cartDetails">
-              
+            <tbody id="cartDetails">  
             </tbody>
           </table>
           <div class="total-price" >
@@ -201,12 +174,13 @@
             </div>
           </div>
         </div>
+        <!-- feedback section-->
         <p>Let us know how you shopping experience was.</p>
         <div class="likes-section">
           <span id="like-count" class="likes">0 likes</span>
           <button id="like-button" class="like-button">♥</button>
         </div>
-  
+        <!-- comment section-->
       <form id="comment-form" class="comment-form">
           <input
             class="comment-input"
@@ -232,7 +206,6 @@
           <a href="https://github.com/EstherWMaina"><img src="./assets/github.png" alt="github" style="width:50px;height:50px;" /></a>
         </div>
       </div>
-     
       <p><b>Copyright © 2022 Soko Yetu All rights reserved</b></p>
     </div>
   </section>
