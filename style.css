@@ -1,0 +1,317 @@
+ 
+ /* header-section */
+.header
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+
+
+/* home-section */
+
+#home {
+	background-image: url(./assets/groceries2.jpg);
+	background-size: cover;
+	background-position: center;
+    background-attachment: fixed;
+	position: relative;
+	z-index: 1;
+    border: 2px solid black;
+    padding: 100px;
+}
+.hero h1,p{
+    color: white;
+}
+/* Farmers section */
+#Farmers
+
+  /*-- Slideshow */
+  * {box-sizing:border-box}
+  body {font-family: Verdana, sans-serif; margin:0}
+  img {vertical-align: middle;}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .slideshow-container .mySlides{
+    position: relative;
+    height: 300px;
+    width: 15vw;
+    background: red;
+    margin: 20px;
+    padding: 0;
+    z-index: 0;
+  }
+  
+  .slideshow-container .mySlides img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.6);
+  }
+  .slideshow-container .mySlides h2 {
+    color: #f2f2f2;
+    font-size: 24px;
+    padding: 8px 12px;
+  }
+  .slideshow-container .mySlides p {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  /* Hide the images by default
+  .mySlides {
+    display: none;
+  }
+   */
+  
+  /* Next & previous buttons */
+  .prev, 
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #7e16c4;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+
+   Container for image text 
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+
+
+  /* The dots/bullets/indicators */
+  /* .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  } */
+  
+  /* Apply a background colour to the Products section */
+  #Products{
+    background-color: rgba(224, 92, 20, 0.521);
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .Products .shop-item-button {
+    text-align: end;
+  }
+
+  /* Apply a background to the Join us section */
+  #join-us {
+    background-image: url(./assets/grocery-list.jpg);
+    background-size: cover;
+    border: 2px solid black;
+    overflow: hidden;
+  }
+
+  /* Apply a background to the Order section */
+  #order {
+    background-color: rgba(224, 92, 20, 0.521);
+    overflow: hidden;
+  }
+
+  .order .h1{
+    color: #f2f2f2;
+  }
+  /* Fading animation */
+  /* .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  } */
+
+
+.cart-page{
+  margin: 80px auto;
+}
+table{
+  width: 80%;
+  border-collapse: collapse;
+}
+th{
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background: #ff523b;
+  font-weight: normal;
+}
+td{
+  padding: 10px 5px;
+}
+
+td input{
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+
+.total-price{
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total-price table{
+  border-top: 3px solid #ff523b;
+  width: 80%;
+  max-width: 850px;
+}
+
+td:last-child{
+  text-align: right;
+}
+
+th:last-child{
+  text-align: right;
+}
+
+.shop-item-button{
+  align-self: baseline;
+}
+
+
+#contact {
+  background-image: url(./assets/contact-background.jpg);
+	background-size: cover;
+	background-position: center;
+  text-align: center;
+  border: 2px solid black;
+  overflow: hidden;
+  }
+
+  .likes {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  
+  .like-button {
+    color: rgb(255, 127, 80);
+    font-size: 1.5rem;
+    border: none;
+    background: none;
+    transition: color 300ms;
+    cursor: pointer;
+  }
+  
+  .like-button:hover {
+    color: rgb(241, 71, 19);
+  }
+  
+  .like-button:active {
+    color: rgb(253, 159, 124);
+  }
+  
+  .like-button:focus {
+    outline: none;
+  }
+  
+  .comment-input{
+    border-radius: 100px;
+  }
+  .comment-button{
+    border-radius: 30px;
+  }
+  
+  .comment-button:hover{
+    transform: scale(1.3);
+    transition: .4s;
+    color: #f9004d;
+    transition: .4s;
+    background-color: blue;
+  }
+/* Footer 
+
+
+#footer {
+    font-family: Georgia,Serif;
+    position: fixed;
+    background-color:red;
+    margin-top:20px;
+    position: relative;
+}
+*/
+#footer{
+    background:#333; 
+    color:white; 
+    padding:10px 20px;
+    text-align: center;
+}
